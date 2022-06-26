@@ -9,5 +9,5 @@ This repository will be an on going managed repository focused on user managemen
 ## Best Practices as per Microsoft guidance:
 To be continued ..  
 
-## Discalimer:
-Even though I do work for Microsoft none of this work is official software provided by and/or on behalf of my employer. This is to help make the life og Azure DevOps Administrators easier.
+## Discalimer
+Even though I do work for Microsoft none of this work is official software provided by and/or on behalf of my employer. This is to help make the life of Azure DevOps Administrators easier.
