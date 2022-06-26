@@ -1,0 +1,24 @@
+#Not a fully fledge runable out of the box service
+#
+#Please replace the following fields <>
+
+#Get user entitlements
+GET https://vsaex.dev.azure.com/<orgName>/_apis/userentitlements?api-version=5.1-preview.2
+
+#Get all projects
+GET https://dev.azure.com/<orgName>/_apis/projects?api-version=6.0
+
+#GET project ID
+#Reminder to copy project ID
+GET https://dev.azure.com/<orgName>/_apis/projects?api-version=6.0
+
+#Get Descriptors
+#Paste Project ID into <ProjectID> and then copy Descriptors
+GET https://vssps.dev.azure.com/<orgName>/_apis/graph/descriptors/<ProjectID>?api-version=5.0-preview.1
+
+#GET all users per project
+#Paste the descriptors into the <Descriptor> field
+GET https://vssps.dev.azure.com/<orgName>/_apis/graph/users?scopeDescriptor=scp.<Descriptor>&api-version=6.0-preview.1
+
+
+
